@@ -6,8 +6,8 @@ import About from "./About";
 function App() {
   return (
     <div>
-      <NavBar />
       <Home />
+      <NavBar />
       <About />
     </div>
   );

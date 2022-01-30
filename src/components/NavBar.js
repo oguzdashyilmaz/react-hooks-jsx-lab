@@ -1,11 +1,14 @@
 import React from "react";
+import {About} from '../components/About';
+import {Home} from '../components/Home';
+
 
 function NavBar() {
   // update the JSX being returned!
   return (
     <nav>
-      <a href="home">Home</a>
-      <a href="about">About</a>
+      <a href={Home}>Home</a>
+      <a href={About}>About</a>
     </nav>
   );
 }
