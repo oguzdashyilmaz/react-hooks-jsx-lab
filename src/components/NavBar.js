@@ -1,14 +1,14 @@
 import React from "react";
-import {About} from '../components/About';
-import {Home} from '../components/Home';
-
+// import {Link} from 'react-router-dom';
 
 function NavBar() {
   // update the JSX being returned!
   return (
     <nav>
-      <a href={Home}>Home</a>
-      <a href={About}>About</a>
+      {/* <a href="home">Home</a>
+      <a href="about">About</a> */}
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
     </nav>
   );
 }
